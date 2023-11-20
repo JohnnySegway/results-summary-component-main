@@ -1,0 +1,126 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-size: 1.1rem;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+
+  /*background image*/
+  background-color: #bfbcbb; /*standby color*/
+  background-image: url("../assets/images/v662-peipei-38-memphis-resize.jpg"); /*image*/
+  background-size: cover; /*to avoid tiling*/
+  background-blend-mode: lighten; /*lighten the background*/
+}
+
+.result-container > * {
+  text-align: center;
+  color: white;
+}
+
+.result-header {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: hsla(0, 100%, 100%, 0.5);
+  margin-top: 0;
+}
+
+.result-score {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.result-sub-score,
+.result-text {
+  color: hsla(0, 100%, 100%, 0.7);
+}
+
+.result-great-header {
+  color: hsla(0, 100%, 100%, 0.9);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.result-text {
+  padding: 0 1.1rem 0;
+  font-size: 0.9rem;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+main {
+  background-color: white;
+  width: 85vw;
+  height: 85vh;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.container {
+
+  width: 50%;
+  height: 55%;
+
+
+  display: flex;
+  flex-direction: row;
+  
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.result-container {
+  flex: 1;
+
+  padding: 2rem;
+
+  background: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+  border-radius: 2.5rem;
+}
+
+.result-circle {
+  margin: 0 auto;
+  background: linear-gradient(to bottom right, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-circle {
+text-align: center;
+margin: 0; /* Adjust spacing between text items */
+}
+
+.summary-container {
+  flex: 1;
+
+  padding: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
