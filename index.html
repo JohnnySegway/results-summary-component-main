@@ -6,9 +6,11 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <script src="https://kit.fontawesome.com/774b8e354e.js" crossorigin="anonymous"></script>
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -40,27 +42,28 @@
         <h2 class="summary-header">Summary</h2>
 
         <ul class="summary-table">
+
           <li class="table-score">
-            Reaction
-            80 / 100
+            <div><i class="fa-solid fa-bolt"></i>Reaction</div>
+            <div>80 / 100</div>
           </li>
 
           <li class="table-score">
-          Memory
-          92 / 100
+            <div><i class="fa-solid fa-gears"></i>Memory</div>
+            <div>92 / 100</div>
           </li>
 
           <li class="table-score">
-          Verbal
-          61 / 100
+            <div><i class="fa-solid fa-comment"></i>Verbal</div>
+            <div>61 / 100</div>
           </li> 
 
           <li class="table-score">
-          Visual
-          72 / 100
+          <div><i class="fa-solid fa-eye"></i>Visual</div>
+          <div>72 / 100</div>
         </ul>
 
-        <button aria-label="continue" class="buttton-continue">Continue</button>
+        <a href="#" class="button-continue">Continue</a>
       </div>
 
     </section>
