@@ -47,6 +47,12 @@ p {
   margin-bottom: 0.5rem;
 }
 
+@media (min-width: 700px) {
+  .result-great-header {
+    margin-top: 0
+  }
+}
+
 .result-text {
   padding: 0 1.1rem 0;
   font-size: 0.9rem;
@@ -56,7 +62,7 @@ p {
 .summary-header {
   font-weight: 500;
   font-size: 1.3rem;
-  margin-top: 0;
+  margin: 0;
 }
 
 .score-wrapper {
@@ -85,26 +91,6 @@ main {
   border-radius: 5px;
 }
 
-/* .container {
-
-  width: 50%;
-  height: 55%;
-
-
-  display: flex;
-  flex-direction: row;
-  
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 0 2.5rem 2.5rem 0;
-
-  box-shadow: 17px 18px 16px -3px hsla(241, 81%, 54%, 0.1)
-
-} */
-
 .container {
 
   /* width: 50%;
@@ -126,6 +112,11 @@ main {
 
 @media (min-width: 700px) {
 
+  .summary-header {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
 
   .container {
   
@@ -156,14 +147,24 @@ main {
   margin: 0 auto;
   background: linear-gradient(to bottom right, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
+@media (min-width: 700px) {
+
+  .result-circle {
+    width: 180px;
+    height: 180px;
+  }
+
+}
+
 
 .text-circle {
 text-align: center;
@@ -183,6 +184,12 @@ margin: 0; /* Adjust spacing between text items */
   min-width: 0;
 }
 
+@media (min-width: 700px) {
+  
+  .summary-container {
+    padding: 1rem;
+  }
+}
 .summary-table {
   list-style: none;
   margin: 0;
@@ -190,7 +197,7 @@ margin: 0; /* Adjust spacing between text items */
 }
 
 .table-score {
-  padding: 15px 10px;
+  padding: 5px 5px;
   margin-top: 12px;
   border-radius: 10px;
   text-align: center;
@@ -198,6 +205,12 @@ margin: 0; /* Adjust spacing between text items */
 
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 700px) {
+  .table-score {
+    padding: 15px 10px;
+  }
 }
 
 .table-score div i {
