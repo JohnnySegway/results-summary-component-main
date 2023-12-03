@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Users/johnwalsh/HTMLCSS/results-summary-component-main/screenshot1080.png)
+![](https://github.com/JohnnySegway/results-summary-component-main/blob/main/screenshot1080.png)
 
 ### Links
 
